@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fabricops"
+version = "0.0.1"
+dependencies = ["msal", "azlog"]
+requires-python = ">=3.6"
+authors = [{ name = "Muhammad Samy", email = "muhssamy@gmail.com" }]
+maintainers = [{ name = "Muhammad Samy", email = "muhssamy@gmail.com" }]
+description = "Update Fabric Workspace From Git Repo using A user with Email And Password"
+readme = "README.md"
+keywords = ["python", "DevOps", "Microsoft Fabric"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python",
+    "Operating System :: OS Independent",
+]
+license = { file = "LICENSE" }
+
+[project.urls]
+Repository = "https://github.com/muhssamy/fabricops"
