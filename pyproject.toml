@@ -19,5 +19,8 @@ classifiers = [
 ]
 license = { file = "LICENSE" }
 
+[tool.setuptools.packages.find]
+where = ["fabricops"]
+
 [project.urls]
 Repository = "https://github.com/muhssamy/fabricops"
