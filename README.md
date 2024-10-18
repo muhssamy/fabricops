@@ -1,4 +1,6 @@
-# fabricops
+[![Build](https://github.com/muhssamy/fabricops/actions/workflows/github-release.yml/badge.svg?event=deployment)](https://github.com/muhssamy/fabricops/actions/workflows/github-release.yml)
+
+# FabricOps
 
 This package is built on top of this [repository](https://github.com/PowerBiDevCamp/FabConWorkshopSweden).
 I have enhanced it to be more suitable for Azure Pipelines and Added New Fuctions for DevOps Pipeline Activies.
